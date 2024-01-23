@@ -52,12 +52,12 @@ export default function PageLogin() {
                     alert && BasicAlerts(messageAndStatus.message, messageAndStatus.status)
                 }
                 <div className="form">
-                    <div className="label-input">
-                        <labe className="label">E-mail</labe>
+                    <div className="label-input-perfil">
+                        <labe className="label-perfil">E-mail</labe>
                         <input className="input" type="text" name="email" value={values['email']} onChange={e => setValues({ ...values, [e.target.name]: e.target.value })} />
                     </div>
-                    <div className="label-input">
-                        <labe className="label">Senha</labe>
+                    <div className="label-input-perfil">
+                        <labe className="label-perfil">Senha</labe>
                         <input className="input" type="password" name="senha" value={values['senha']} onChange={e => setValues({ ...values, [e.target.name]: e.target.value })} />
                     </div>
                 </div>
