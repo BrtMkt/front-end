@@ -1,0 +1,88 @@
+.body {
+    background: #281c44;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela-Perfil{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 5px, rgba(255, 255, 255, 0.3) 0px 10px, rgba(255, 255, 255, 0.2) 0px 15px, rgba(255, 255, 255, 0.1) 0px 20px, rgba(255, 255, 255, 0.05) 0px 25px;
+}
+
+.subTelaForm{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.form{
+    width: 90%;
+    margin-bottom: 16px;
+}
+
+.input{
+    height: 5vh;
+    border: #281c4497 2px solid;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label{
+    position: relative;
+    top: 8px;
+    background: white;
+    width: 8%;
+    left: 8px;
+    color: #281c44;
+    font-weight: 300;
+    text-align: center;
+}
+
+.img{
+    padding: 5%;
+    width: 70%;
+}
+
+.button{
+    margin-bottom: 34px;
+    padding: 2%;
+    width: 15%;
+    background: rgb(40, 28, 68);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    box-shadow: rgba(40, 28, 68, 0.2) 0px 1px 0px, rgba(40, 28, 68, 0.2) 0px 8px 24px, rgba(40, 28, 68, 0.2) 0px 16px 48px;
+}
+
+.editarPerfil{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+.buttonFooter{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}

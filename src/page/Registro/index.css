@@ -1,0 +1,54 @@
+.headerTable {
+    background: #0000001f;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-true {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.td{
+    padding: 0;
+    text-align: start;
+}
+
+.editarPerfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding-right: 60px;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.filter div{
+    width: 50%;
+}
+
+.filter input{
+    width: 60%;
+    height: 3vh;
+    border: #281c4497 2px solid;
+    border-radius: 5px;
+}
+
+.filter select{
+    width: 100px;
+    height: 4vh;
+    border: #281c4497 2px solid;
+    border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+.headerTable{
+    background: #0000001f;
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-true{
+    width: 100%;
+}
+
+.td{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    text-align: center;
+}
+

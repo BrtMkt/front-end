@@ -1,0 +1,26 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    background: #281c4418;
+    width: 100%;
+}
+
+.view{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.view-div{
+    background: white;
+    width: 90%;
+    height: 90vh;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.view main{
+    padding: 0px 5.5%  20px 5.5%;
+}
